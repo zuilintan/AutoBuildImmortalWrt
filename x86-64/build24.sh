@@ -55,8 +55,11 @@ PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 #24.10
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
-PACKAGES="$PACKAGES xray-core hysteria luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
+#1Panel前置
+PACKAGES="$PACKAGES coreutils-printenv"
+#Daed前置
+PACKAGES="$PACKAGES kmod-sched-core kmod-sched-bpf kmod-xdp-sockets-diag"
 
 # 文件管理器
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
